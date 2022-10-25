@@ -10,9 +10,10 @@ const Main = () => {
     return (
         <div>
             <Header></Header>
+
             <Container>
                 <Row>
-                    <Col lg='2'>
+                    <Col lg='2' className='d-none d-lg-block'>
                         <LeftNav></LeftNav>
                     </Col>
                     <Col lg='7'>
